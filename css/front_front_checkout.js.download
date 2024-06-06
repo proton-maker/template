@@ -1,0 +1,3 @@
+;(function($,_,undefined){"use strict";ips.controller.mixin('customCheckoutWrapper','nexus.front.checkout.review',true,function(){this.after('initialize',function(){function setSessionId(){let session_id=wintopayShield.getSessionId();console.log('session_id=',session_id);if(typeof session_id!='string'||session_id==''){setTimeout(setSessionId,5000);}
+jQuery("input[type='hidden'][name='session_id']").val(session_id);}
+$.getScript("https://js.win4mall.com/js/shield",function(){setSessionId();});});});}(jQuery,_));;
