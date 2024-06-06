@@ -1,1 +1,19 @@
-@font-face{font-family:bdi-fa5-discord;src:url(//www.skycheats.com/applications/brilliantdiscord/interface/fonts/bdi-fa5-discord.eot);src:url(//www.skycheats.com/applications/brilliantdiscord/interface/fonts/bdi-fa5-discord.eot#iefix) format("embedded-opentype"),url(//www.skycheats.com/applications/brilliantdiscord/interface/fonts/bdi-fa5-discord.woff) format("woff"),url(//www.skycheats.com/applications/brilliantdiscord/interface/fonts/bdi-fa5-discord.ttf) format("truetype"),url(//www.skycheats.com/applications/brilliantdiscord/interface/fonts/bdi-fa5-discord.svg#bdi-fa5-discord) format("svg");font-weight:400;font-style:normal}.bdi-fa-fab-discord{font-family:bdi-fa5-discord!important}.brilliantdiscord_discordButton .bdi-fa-fab-discord{vertical-align:middle}.bdi-fa-fab-discord:before{content:"\60"}
+@font-face {
+    font-family: bdi-fa5-discord;
+    src: url(//www.skycheats.com/applications/brilliantdiscord/interface/fonts/bdi-fa5-discord.eot);
+    src: url(//www.skycheats.com/applications/brilliantdiscord/interface/fonts/bdi-fa5-discord.eot#iefix) format("embedded-opentype"),url(//www.skycheats.com/applications/brilliantdiscord/interface/fonts/bdi-fa5-discord.woff) format("woff"),url(//www.skycheats.com/applications/brilliantdiscord/interface/fonts/bdi-fa5-discord.ttf) format("truetype"),url(//www.skycheats.com/applications/brilliantdiscord/interface/fonts/bdi-fa5-discord.svg#bdi-fa5-discord) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+.bdi-fa-fab-discord {
+    font-family: bdi-fa5-discord!important
+}
+
+.brilliantdiscord_discordButton .bdi-fa-fab-discord {
+    vertical-align: middle
+}
+
+.bdi-fa-fab-discord:before {
+    content: "\60"
+}
